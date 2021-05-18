@@ -2,12 +2,11 @@ header {
     background-color: #EEEFF1;
     margin: -7px 0;
     height: 700px;
-    font-family: 'Roboto', sans-serif;
-    width: 1920px;
 }
 
 .div {
-    margin-left: 48px;
+    margin-left: 26px;
+    display: flex;
 }
 
 .menu {
@@ -21,7 +20,6 @@ header {
 
 .menu__item {
     display: flex;
-    justify-content: space-between;
 }
 
 .body {
@@ -86,7 +84,7 @@ header {
     height: 250px;
     align-items: center;
     padding: 0 424px 0 424px;
-    margin: 0 -8px;
+    margin: auto;
 }
 
 .my-works__img {
@@ -96,9 +94,10 @@ header {
 
 .me {
     display: flex;
-    justify-content: space-between;
+    justify-content: space-around;
     align-items: center;
-    margin: 102px 385px;
+    width: 1920px;
+    margin: 102px auto;
 }
 
 .me__photo {
@@ -143,7 +142,13 @@ header {
 .work__video {
     width: 1110px;
     height: 600px;
-    margin: 50px 405px 100px 405px;
+}
+
+.work__video1 {
+    display: flex;
+    justify-content: center;
+    margin-top: 75px;
+    margin-bottom: 100px;
 }
 
 .pcs__pcs1 {
@@ -268,3 +273,4 @@ header {
     text-decoration: none;
     padding: 15px;
 }
+
