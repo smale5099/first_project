@@ -1,0 +1,270 @@
+header {
+    background-color: #EEEFF1;
+    margin: -7px 0;
+    height: 700px;
+    font-family: 'Roboto', sans-serif;
+    width: 1920px;
+}
+
+.div {
+    margin-left: 48px;
+}
+
+.menu {
+    display: flex;
+    padding: 72px 413px 0 402px;
+}
+
+.logo {
+    margin: 0 398px 0 0;
+}
+
+.menu__item {
+    display: flex;
+    justify-content: space-between;
+}
+
+.body {
+    display: flex;
+    padding: 162px 405px 146px 487px;
+    justify-content: center;
+    height: 297px;
+    margin: 0 -7px;
+    font-family: 'Roboto', sans-serif;
+}
+
+.inf {
+    width: 541px;
+    margin: 0 0 0 131px;
+    display: flex;
+    justify-content: space-between;
+    flex-direction: column;
+    line-height: 26px;
+}
+
+.inf__sub-tittle {
+    opacity: 60%;
+}
+
+.inf__button {
+    width: 225px;
+    height: 65px;
+    background-color: #34547A;
+    color: white;
+}
+
+.inf__tittle {
+    font-size: 48px;
+    line-height: 78px;
+    font-weight: 500;
+}
+
+.about {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    height: 147px;
+    margin: 119px 690px;
+}
+
+.about__sub-tittle {
+    line-height: 26px;
+    opacity: 60%;
+    text-align: center;
+    width: 400px;
+}
+
+.about__tittle {
+    font-size: 32px;
+}
+
+.my-works {
+    background-color: #34547A;
+    display: flex;
+    justify-content: space-between;
+    height: 250px;
+    align-items: center;
+    padding: 0 424px 0 424px;
+    margin: 0 -8px;
+}
+
+.my-works__img {
+    width: 141px;
+    height: 50px;
+}
+
+.me {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 102px 385px;
+}
+
+.me__photo {
+    width: 555px;
+    height: 450px;
+}
+
+.me__tittle {
+    font-size: 32px;
+    font-weight: bold;
+    padding-bottom: 27px;
+}
+
+.me__skill-lines {
+    padding: 27px 0;
+}
+
+.work {
+    height: 1004px;
+    background-color: #EEEFF1;
+}
+
+.work__tittle {
+    font-family: 'Roboto', sans-serif;
+    font-size: 32px;
+    line-height: 37px;
+    text-align: center;
+    font-weight: 500;
+    padding: 100px 0 50px 0;
+}
+
+.work__sub-tittle {
+    font-family: 'Roboto', sans-serif;
+    font-weight: 400;
+    line-height: 26px;
+    text-align: center;
+    opacity: 60%;
+    width: 540px;
+    margin: auto;
+}
+
+.work__video {
+    width: 1110px;
+    height: 600px;
+    margin: 50px 405px 100px 405px;
+}
+
+.pcs__pcs1 {
+    display: flex;
+}
+
+.picture {
+    height: 25%;
+    width: 25%;
+
+}
+
+.pcs__pcs2 {
+    display: flex;
+}
+
+.pcs {
+    margin: 28px 0 100px 0;
+}
+
+.pcs__logo {
+    padding: 0 405px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.picture__br {
+    height: 25%;
+    width: 25%;
+    filter: brightness(40%);
+}
+
+.request {
+    height: 762px;
+    background-color: #EEEFF1;
+}
+
+.request__tittle {
+    font-family: 'Roboto', sans-serif;
+    font-size: 32px;
+    line-height: 37px;
+    text-align: center;
+    font-weight: 500;
+    padding: 100px 0 50px 0;
+}
+
+.request__sub-tittle {
+    font-family: 'Roboto', sans-serif;
+    font-weight: 400;
+    line-height: 26px;
+    text-align: center;
+    opacity: 60%;
+    width: 540px;
+    margin: auto;
+}
+
+.request__form {
+    display: flex;
+    justify-content: center;
+    margin-top: 65px;
+}
+
+.request__form1 {
+    margin-right: 15px;
+    width: 255px;
+    height: 50px;
+    border: 0;
+    opacity: 80%;
+    font-family: 'Roboto', sans-serif;
+    font-size: 14px;
+}
+
+.request__form2 {
+    margin-left: 15px;
+    width: 255px;
+    height: 50px;
+    border: 0;
+    opacity: 80%;
+    font-family: 'Roboto', sans-serif;
+    font-size: 14px;
+}
+
+.request__form4 {
+    width: 540px;
+    height: 175px;
+    border: 0;
+    opacity: 80%;
+    font-family: 'Roboto', sans-serif;
+    font-size: 14px;
+    text-align: justify-all;
+}
+
+.request__form3 {
+    display: flex;
+    justify-content: center;
+    margin: 20px 0 50px 0;
+}
+
+.request__button1 {
+    width: 190px;
+    height: 55px;
+    background-color: #34547A;
+    color: white;
+    font-family: 'Roboto', sans-serif;
+    font-size: 14px;
+}
+
+.request_button {
+    display: flex;
+    justify-content: center;
+}
+.btn_top {
+    width: 100px;
+    border: 2px solid skyblue;
+    background: indianred;
+    text-align: center;
+    position: fixed;
+    bottom: 50px;
+    right: 50px;
+    color: green;
+    border-radius: 10px;
+    text-decoration: none;
+    padding: 15px;
+}
