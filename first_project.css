@@ -57,6 +57,10 @@ header {
     font-weight: 500;
 }
 
+body {
+    margin: -7px auto;
+}
+
 .about {
     display: flex;
     flex-direction: column;
@@ -218,6 +222,10 @@ header {
     margin-top: 65px;
 }
 
+input::placeholder {
+    padding-left: 20px;
+}
+
 .request__form1 {
     margin-right: 15px;
     width: 255px;
@@ -280,4 +288,39 @@ header {
     text-decoration: none;
     padding: 15px;
 }
+footer {
+    background-color: #34547A;
+    height: 151px;
+    margin: -7px auto;
+}
+.footer2 {
+    width: 1920px;
+    display: flex;
+    justify-content: space-around;
+    margin-right: auto;
+    margin-left: auto;
+}
 
+.contacts {
+    display: flex;
+    justify-content: space-between;
+    flex-direction: column;
+    font-family: 'Roboto', sans-serif;
+    padding: 50px 0;
+    color: #FFFFFF;
+}
+.contacts__tittle {
+    font-size: 21px;
+    font-weight: 500;
+    padding-bottom: 20px;
+}
+
+.contacts__sub-tittle {
+    font-size: 13px;
+    font-weight: normal;
+}
+
+.links {
+    width: 175px;
+    margin: auto 0;
+}
